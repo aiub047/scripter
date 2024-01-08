@@ -1,24 +1,14 @@
+appName: test
 featureFlagDetails:
-  - featureFlagTypeaheadInShipping:
+  - title: featureFlagTypeaheadInShipping
     flagName: TypeaheadInShipping
     flagDesc: >-
       Description
-    flag-enabled-state: true
-    flag-deprecation-date: ''
-    attributes:
-      attribute-key: ''
-      attribute-type: ''
-      attribute-value: ''
-      attribute-constraint-type: ''
-      attribute-constraint-value: ''
-  - featureFlagShippingPromotion:
+    flagEnabledState: true
+    flagDeprecationDate: ''
+  - title: featureFlagShippingPromotion
     flagName: ShippingPromotion
     flagDesc: >-
       Description
-    flag-enabled-state: true
-    flag-deprecation-date: ''
-    attributes:
-      attribute-key: ''
-      attribute-type: ''
-      attribute-value: ''
-      attribute-constraint-type: ''
+    flagEnabledState: false
+    flagDeprecationDate: ''
